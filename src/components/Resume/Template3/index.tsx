@@ -265,7 +265,7 @@ export const Template3: React.FC<Props> = props => {
             })}
           </CardWrapper>
         ) : null}
-        {awardList?.length ? (
+        {/*awardList?.length ? (
           <CardWrapper
             // title=<FormattedMessage id="更多信息" />
             title={titleNameMap.awardList}
@@ -288,7 +288,7 @@ export const Template3: React.FC<Props> = props => {
               );
             })}
           </CardWrapper>
-        ) : null}
+        ) : null*/}
       </div>
       <div className="main-info">
         {workExpList?.length
